@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="845DE859-CA10-EE96-45CB-A0720389D0DB">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 05:39:59 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<sourcePk>C52BD912-A106-EA80-5F60-812C6EF5C896</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>mencatat</nameOnSource>
+<nameOnTarget>dicatat</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>791F0A44-B709-8A0D-C6BE-1355F39D23FF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>899CF47A-5B27-9E3E-E63A-7C7834573D9C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

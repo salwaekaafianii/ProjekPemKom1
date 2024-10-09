@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="791F0A44-B709-8A0D-C6BE-1355F39D23FF" name="Peminjaman">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:45:45 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="peminjaman_id" id="3562D2B8-B528-5413-5F63-2DF48579AC34">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:46:04 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="buku_id" id="7E51CAC1-1A43-C71D-1CAB-3A70D7592321">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:46:24 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mahasiswa_id" id="FFE957AC-3910-F762-3233-A0D2E6EB6030">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:48:01 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_peminjaman" id="E65954A8-C4B3-D2BA-1DEC-D6E1FFB53C29">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:50:09 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_pengembalian" id="8D0F0095-785A-2B1E-48D3-79CA79681394">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:51:04 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C52BD912-A106-EA80-5F60-812C6EF5C896" name="Peminjaman PK">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:48:49 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3562D2B8-B528-5413-5F63-2DF48579AC34</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

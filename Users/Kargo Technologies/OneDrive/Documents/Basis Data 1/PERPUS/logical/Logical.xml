@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4F1FB8F6-E283-2735-7833-0E80A08B5A75" mainViewID="527D4E4E-3B17-3EDD-A007-E7437DFE6F7C">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 03:47:34 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

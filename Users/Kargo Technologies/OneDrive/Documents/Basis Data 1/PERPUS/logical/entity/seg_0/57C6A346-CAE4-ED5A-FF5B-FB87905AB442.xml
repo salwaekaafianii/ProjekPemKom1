@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57C6A346-CAE4-ED5A-FF5B-FB87905AB442" name="Mahasiswa">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:38:08 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mahasiswa_id" id="9E612639-FAE3-FF90-08F8-970188BA2507">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:38:24 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_mahasiswa" id="1ABF6402-3923-3AAB-AE9E-EBA97B473123">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:39:56 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_lahir" id="2D08CD3F-288F-96C6-7916-2AFFAE68DD82">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:43:45 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gender" id="D5EE869B-1025-DEC0-68A4-915D0877E01B">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:44:04 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="685A0618-69E0-FC53-C373-288693C5D478">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:44:43 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_telepon" id="4AAAF530-F42B-4A28-53CF-46C3167E86C9">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:44:51 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alamat" id="B7F7284E-7A15-647E-072E-49376DC9C5CF">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:45:13 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peminjaman_id" id="A1F6EC10-8D22-03E1-DBA5-C05449D74713">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 05:39:38 UTC</createdTime>
+<generatorID>075CE86E-2171-2A99-AFD0-E8EC367606A5</generatorID>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3562D2B8-B528-5413-5F63-2DF48579AC34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="96AB45F5-ED73-DBCC-2112-FC8BFECF7849" name="Mahasiswa PK">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:39:46 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E612639-FAE3-FF90-08F8-970188BA2507</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

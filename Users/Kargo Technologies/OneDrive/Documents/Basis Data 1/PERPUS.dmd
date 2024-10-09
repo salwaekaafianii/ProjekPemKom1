@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PERPUS" id="1D21AA59-0D92-E646-6469-CA0792EB66B2" version="3.5">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 03:47:34 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1D21AA59-0D92-E646-6469-CA0792EB66B2</designId>
+</OSDM_Design>

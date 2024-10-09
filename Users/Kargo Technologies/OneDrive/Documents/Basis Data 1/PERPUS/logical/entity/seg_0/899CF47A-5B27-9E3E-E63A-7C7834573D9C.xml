@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="899CF47A-5B27-9E3E-E63A-7C7834573D9C" name="Buku">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:52:42 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="buku_id" id="157C0D2D-368B-1F08-B7D9-18175271A293">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:52:49 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="judul_buku" id="2530067D-4542-3BB8-D62C-BE0F2CE966D1">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:52:58 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="penulis" id="B7832113-2034-E6DC-FCEE-36CC8BB9231B">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:53:14 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="penerbit" id="8DE71D3B-5E8C-DEE8-0EDA-7E93F4E0CE76">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:53:44 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tahun_terbit" id="B5AD1606-0BCD-5350-4D4B-D401A8BF0C44">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:53:57 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genre" id="2EFB1F94-F033-8D3B-2F40-E468A2A0A325">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:54:28 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="19483578-CA4F-6CFC-0F5E-0B53A5A31343">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:54:39 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peminjaman_id" id="01B3E0BF-978D-3280-6871-BAFC21A2868D">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 05:40:19 UTC</createdTime>
+<generatorID>845DE859-CA10-EE96-45CB-A0720389D0DB</generatorID>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3562D2B8-B528-5413-5F63-2DF48579AC34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C90F8907-36F3-2567-4D3A-AA45FCEDA425" name="Buku PK">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-09 04:53:20 UTC</createdTime>
+<ownerDesignName>PERPUS</ownerDesignName>
+<engineerTo>
+<item key="672C5C4E-FC65-0DC9-1CA4-88AED7413F2E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>157C0D2D-368B-1F08-B7D9-18175271A293</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
