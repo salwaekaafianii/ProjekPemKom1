@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61949BAF-480E-A787-E35D-265F28756032" name="sewa">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-16 05:27:10 UTC</createdTime>
+<ownerDesignName>tugas</ownerDesignName>
+<engineerTo>
+<item key="5782746C-FDCB-7B8E-CAE4-D7059552EF8C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sewa_id" id="6AC2FB88-BE14-C1E1-C92E-747BE5BB45C3">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-16 05:27:30 UTC</createdTime>
+<ownerDesignName>tugas</ownerDesignName>
+<engineerTo>
+<item key="5782746C-FDCB-7B8E-CAE4-D7059552EF8C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pelanggan_id" id="BA77816A-50FE-5E83-54C0-C8C547448C27">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-16 05:27:57 UTC</createdTime>
+<ownerDesignName>tugas</ownerDesignName>
+<engineerTo>
+<item key="5782746C-FDCB-7B8E-CAE4-D7059552EF8C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alat_id" id="081C2904-C4D3-1A91-3CE7-532234E1BFE1">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-16 05:31:35 UTC</createdTime>
+<ownerDesignName>tugas</ownerDesignName>
+<engineerTo>
+<item key="5782746C-FDCB-7B8E-CAE4-D7059552EF8C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_sewa" id="102AB01F-5491-8CEF-EFBE-C48A1470A3B0">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-16 05:35:53 UTC</createdTime>
+<ownerDesignName>tugas</ownerDesignName>
+<engineerTo>
+<item key="5782746C-FDCB-7B8E-CAE4-D7059552EF8C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_kembali" id="EE3A7614-E97F-0DA7-31B8-41927C31BB33">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-16 05:36:39 UTC</createdTime>
+<ownerDesignName>tugas</ownerDesignName>
+<engineerTo>
+<item key="5782746C-FDCB-7B8E-CAE4-D7059552EF8C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="durasi_sewa" id="2B30F226-E2C6-AA24-C13E-2D20DD922070">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-16 05:37:01 UTC</createdTime>
+<ownerDesignName>tugas</ownerDesignName>
+<engineerTo>
+<item key="5782746C-FDCB-7B8E-CAE4-D7059552EF8C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_pengembali" id="9CE514A7-4E2E-19BB-D3DC-607961A95BBA">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-16 05:37:38 UTC</createdTime>
+<ownerDesignName>tugas</ownerDesignName>
+<engineerTo>
+<item key="5782746C-FDCB-7B8E-CAE4-D7059552EF8C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C2F80A1A-54E7-1D6C-463E-635835CAB50E" name="sewa PK">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-16 05:27:45 UTC</createdTime>
+<ownerDesignName>tugas</ownerDesignName>
+<engineerTo>
+<item key="5782746C-FDCB-7B8E-CAE4-D7059552EF8C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6AC2FB88-BE14-C1E1-C92E-747BE5BB45C3</attributeRef>
+<attributeRef>081C2904-C4D3-1A91-3CE7-532234E1BFE1</attributeRef>
+<attributeRef>BA77816A-50FE-5E83-54C0-C8C547448C27</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

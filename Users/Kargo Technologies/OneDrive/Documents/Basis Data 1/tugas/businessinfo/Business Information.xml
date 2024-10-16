@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="955375DF-64FF-5292-2B99-B2987B7E1C73">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-16 03:38:36 UTC</createdTime>
+<ownerDesignName>tugas</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

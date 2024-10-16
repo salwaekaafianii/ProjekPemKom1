@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tugas" id="7B2932FF-E75C-FC99-AD64-08770080DE7B" version="3.5">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-10-16 03:38:36 UTC</createdTime>
+<ownerDesignName>tugas</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7B2932FF-E75C-FC99-AD64-08770080DE7B</designId>
+</OSDM_Design>
