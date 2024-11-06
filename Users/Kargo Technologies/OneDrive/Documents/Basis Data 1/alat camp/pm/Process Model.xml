@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="AE1F5D27-8AC2-03AF-08E2-F01607BF2FC0">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-06 03:38:24 UTC</createdTime>
+<ownerDesignName>alat camp</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

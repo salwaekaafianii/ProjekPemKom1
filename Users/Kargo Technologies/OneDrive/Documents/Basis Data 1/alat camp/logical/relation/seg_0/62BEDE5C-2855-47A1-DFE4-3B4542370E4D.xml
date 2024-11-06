@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="62BEDE5C-2855-47A1-DFE4-3B4542370E4D">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-06 05:30:04 UTC</createdTime>
+<ownerDesignName>alat camp</ownerDesignName>
+<engineerTo>
+<item key="7E72ADBE-AD5B-4FF9-CDA7-7AAA6614F4CB" value="true"/>
+</engineerTo>
+<targetPk>87BF8CD7-1588-A465-F020-4089AD21CAC3</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B518D89F-565B-2AB2-2645-96E28FCB35BC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>592B809A-72BF-842F-271A-56E47584297A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

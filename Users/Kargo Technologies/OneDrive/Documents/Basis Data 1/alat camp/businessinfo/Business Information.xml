@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="CC991CFE-E9C9-0103-AD6C-F75FE2515F2E">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-06 03:38:24 UTC</createdTime>
+<ownerDesignName>alat camp</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

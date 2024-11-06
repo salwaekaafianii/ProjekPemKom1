@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B518D89F-565B-2AB2-2645-96E28FCB35BC" name="Sewa">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-06 05:22:19 UTC</createdTime>
+<ownerDesignName>alat camp</ownerDesignName>
+<engineerTo>
+<item key="7E72ADBE-AD5B-4FF9-CDA7-7AAA6614F4CB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sewa" id="9BE54462-C8FE-DA99-8AB3-DE6F8E6D4218">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-06 05:22:31 UTC</createdTime>
+<ownerDesignName>alat camp</ownerDesignName>
+<engineerTo>
+<item key="7E72ADBE-AD5B-4FF9-CDA7-7AAA6614F4CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_sewa" id="2B8DBBD3-88F2-1A70-ADC9-DBC1EDDE2D59">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-06 05:22:58 UTC</createdTime>
+<ownerDesignName>alat camp</ownerDesignName>
+<engineerTo>
+<item key="7E72ADBE-AD5B-4FF9-CDA7-7AAA6614F4CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_kembali" id="9276C184-C133-9AD4-10E8-526894548375">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-06 05:23:43 UTC</createdTime>
+<ownerDesignName>alat camp</ownerDesignName>
+<engineerTo>
+<item key="7E72ADBE-AD5B-4FF9-CDA7-7AAA6614F4CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pelanggan" id="CCAAEE08-EC1C-76DF-044E-16380C009239">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-06 05:29:41 UTC</createdTime>
+<generatorID>7E4FEC61-D7EF-2108-23C5-C915723D6817</generatorID>
+<ownerDesignName>alat camp</ownerDesignName>
+<engineerTo>
+<item key="7E72ADBE-AD5B-4FF9-CDA7-7AAA6614F4CB" value="true"/>
+</engineerTo>
+<referedAttribute>E114EA15-7C23-C584-96CB-040DFEA03B69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_alat" id="B8D10C92-EB03-53F0-05B6-64417AC08C45">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-06 05:30:22 UTC</createdTime>
+<generatorID>62BEDE5C-2855-47A1-DFE4-3B4542370E4D</generatorID>
+<ownerDesignName>alat camp</ownerDesignName>
+<engineerTo>
+<item key="7E72ADBE-AD5B-4FF9-CDA7-7AAA6614F4CB" value="true"/>
+</engineerTo>
+<referedAttribute>1A2C5945-586B-FA2C-5BAC-CC41E0F1BAF9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_harga" id="7EB87197-463C-C37C-AC8F-0F7897902775">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-06 05:35:08 UTC</createdTime>
+<ownerDesignName>alat camp</ownerDesignName>
+<engineerTo>
+<item key="7E72ADBE-AD5B-4FF9-CDA7-7AAA6614F4CB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="43DB3FE9-B28F-95F3-3935-3C370E1061B0" name="Sewa PK">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-06 05:22:54 UTC</createdTime>
+<ownerDesignName>alat camp</ownerDesignName>
+<engineerTo>
+<item key="7E72ADBE-AD5B-4FF9-CDA7-7AAA6614F4CB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9BE54462-C8FE-DA99-8AB3-DE6F8E6D4218</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

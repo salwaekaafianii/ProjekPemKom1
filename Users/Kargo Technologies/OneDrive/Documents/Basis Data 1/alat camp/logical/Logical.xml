@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3CCC8D92-9A84-627D-5299-849CB7AE6728" mainViewID="4F9E5294-FD29-CB82-3793-C8F82E39F33F">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-06 03:38:24 UTC</createdTime>
+<ownerDesignName>alat camp</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
