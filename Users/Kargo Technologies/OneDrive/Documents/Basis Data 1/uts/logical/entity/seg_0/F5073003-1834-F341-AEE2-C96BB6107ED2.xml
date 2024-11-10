@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5073003-1834-F341-AEE2-C96BB6107ED2" name="Kendaraaan">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-10 21:17:58 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="9C2C09BF-2A84-F994-5B7D-92728E7A2B21" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_kendaraan" id="FD513C84-0124-A05B-FF9F-FFC3C139AB23">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-10 21:18:10 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="9C2C09BF-2A84-F994-5B7D-92728E7A2B21" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jenis_kendaraan" id="D26A0BDC-0D53-B520-2230-F4B4798F81FE">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-10 21:18:40 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="9C2C09BF-2A84-F994-5B7D-92728E7A2B21" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="merek" id="AE44BF6C-90A5-E395-8340-8AB7EC8CA81E">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-10 21:20:31 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="9C2C09BF-2A84-F994-5B7D-92728E7A2B21" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="model" id="5E98E6F8-968E-7670-EE43-5E0076571352">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-10 21:22:58 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="9C2C09BF-2A84-F994-5B7D-92728E7A2B21" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plat_nomor" id="2D4D13D6-8159-84A8-3BBB-31F40C2073F2">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-10 21:24:25 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="9C2C09BF-2A84-F994-5B7D-92728E7A2B21" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_perawatan" id="357DDF4B-76C7-4C17-C27A-C0820F4DEF70">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-10 21:29:19 UTC</createdTime>
+<generatorID>64928A52-6ADD-731F-2C2B-342C7F22821C</generatorID>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="9C2C09BF-2A84-F994-5B7D-92728E7A2B21" value="true"/>
+</engineerTo>
+<referedAttribute>1A8ADAF4-C240-C3A0-6452-6CE695DA50D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pemilik" id="215324BE-0196-8D40-FDFF-B3C20DDC3FDC">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-10 21:30:43 UTC</createdTime>
+<generatorID>A38727FE-30BF-6871-6600-46C9C2D8DFA4</generatorID>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="9C2C09BF-2A84-F994-5B7D-92728E7A2B21" value="true"/>
+</engineerTo>
+<referedAttribute>20F89639-E973-3CFF-059D-C800AF101824</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="581B243F-CC0E-E944-62E8-0870C7E65D24" name="Kendaraaan PK">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-10 21:19:48 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="9C2C09BF-2A84-F994-5B7D-92728E7A2B21" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD513C84-0124-A05B-FF9F-FFC3C139AB23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

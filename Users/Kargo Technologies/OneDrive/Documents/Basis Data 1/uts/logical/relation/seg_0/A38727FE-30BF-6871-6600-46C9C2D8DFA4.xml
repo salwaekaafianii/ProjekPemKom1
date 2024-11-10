@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="A38727FE-30BF-6871-6600-46C9C2D8DFA4">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-10 21:30:07 UTC</createdTime>
+<ownerDesignName>uts</ownerDesignName>
+<engineerTo>
+<item key="9C2C09BF-2A84-F994-5B7D-92728E7A2B21" value="true"/>
+</engineerTo>
+<sourcePk>581B243F-CC0E-E944-62E8-0870C7E65D24</sourcePk>
+<targetPk>E9A03055-4E78-BCB1-6E56-6674A4B922D5</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F5073003-1834-F341-AEE2-C96BB6107ED2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B3FDABE4-F36E-95E8-CD19-9ADFA4284AB6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="2EC8CB64-BE93-8BCB-7C00-08FF9811551C">
+<createdBy>Kargo Technologies</createdBy>
+<modifiedBy>Kargo Technologies</modifiedBy>
+<createdTime>2024-11-10 21:12:40 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="AB5086D9-38B7-9D9F-DEFB-9055D7BFFB31" otype="Entity" vid="3A57817E-9DA5-9514-754C-C2AECC47CDE8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="94" y="63" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B3FDABE4-F36E-95E8-CD19-9ADFA4284AB6" otype="Entity" vid="001BBADD-E811-4589-FE01-0466BD09C3D8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="741" y="55" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F5073003-1834-F341-AEE2-C96BB6107ED2" otype="Entity" vid="B0E4748A-AC96-8BCF-45A8-1289FC46607F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="406" y="60" width="170" height="110"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="64928A52-6ADD-731F-2C2B-342C7F22821C" otype="Relation" vid_source="3A57817E-9DA5-9514-754C-C2AECC47CDE8" vid_target="B0E4748A-AC96-8BCF-45A8-1289FC46607F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="264" y="116"/>
+<point x="406" y="116"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="A38727FE-30BF-6871-6600-46C9C2D8DFA4" otype="Relation" vid_source="B0E4748A-AC96-8BCF-45A8-1289FC46607F" vid_target="001BBADD-E811-4589-FE01-0466BD09C3D8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="576" y="112"/>
+<point x="741" y="112"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>
