@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5BB20715-5915-7D4C-209C-A18A648220AE" name="Pengunjung">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-11 00:26:19 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<engineerTo>
+<item key="A147AA15-AC3C-732A-D927-C0350E01ECD2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pengunjung" id="A033E405-1600-E711-D487-83A69F29228A">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-11 00:26:30 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<engineerTo>
+<item key="A147AA15-AC3C-732A-D927-C0350E01ECD2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama" id="74482E81-4BB8-2D29-C914-07D1E7129028">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-11 00:26:46 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<engineerTo>
+<item key="A147AA15-AC3C-732A-D927-C0350E01ECD2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alamat" id="DF2631F2-3AE4-61D2-7090-719998B0568F">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-11 00:27:06 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<engineerTo>
+<item key="A147AA15-AC3C-732A-D927-C0350E01ECD2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomor_telepon" id="B351278B-81B5-69ED-DB6A-0AE02F7200BE">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-11 00:27:33 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<engineerTo>
+<item key="A147AA15-AC3C-732A-D927-C0350E01ECD2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="BC7F01DD-CC88-8CFA-FA6B-77E3D4B25B18">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-11 00:27:58 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<engineerTo>
+<item key="A147AA15-AC3C-732A-D927-C0350E01ECD2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="38362D38-4591-291D-1AB3-F1BAC52562C3" name="Pengunjung PK">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-11 00:26:44 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<engineerTo>
+<item key="A147AA15-AC3C-732A-D927-C0350E01ECD2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A033E405-1600-E711-D487-83A69F29228A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

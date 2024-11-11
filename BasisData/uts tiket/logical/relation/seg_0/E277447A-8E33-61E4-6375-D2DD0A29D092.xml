@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="E277447A-8E33-61E4-6375-D2DD0A29D092">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-11 00:37:12 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<engineerTo>
+<item key="A147AA15-AC3C-732A-D927-C0350E01ECD2" value="true"/>
+</engineerTo>
+<sourcePk>38362D38-4591-291D-1AB3-F1BAC52562C3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5BB20715-5915-7D4C-209C-A18A648220AE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0DE3BCB2-82F3-F9F9-0269-CE5A2D8B7D5C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

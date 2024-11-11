@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="604CC68F-F4DB-340E-4AF1-6D615049F045" mainViewID="0C42C882-3EE9-3EB3-2D3F-D7AF380E446D">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-10 23:19:48 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

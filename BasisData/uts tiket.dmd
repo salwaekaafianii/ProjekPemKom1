@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="uts tiket" id="060D4F32-34A7-2D5D-FCE0-652A6A2011C0" version="3.5">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-10 23:19:48 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>060D4F32-34A7-2D5D-FCE0-652A6A2011C0</designId>
+</OSDM_Design>

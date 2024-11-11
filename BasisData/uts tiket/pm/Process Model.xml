@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="A055464B-9168-431E-10A2-1FE409FACC80">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-10 23:19:48 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

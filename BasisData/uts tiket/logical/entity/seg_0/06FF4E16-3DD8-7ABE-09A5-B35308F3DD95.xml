@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06FF4E16-3DD8-7ABE-09A5-B35308F3DD95" name="Wisata">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-11 00:22:22 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<engineerTo>
+<item key="A147AA15-AC3C-732A-D927-C0350E01ECD2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_wisata" id="42D7B9E9-4138-71C7-F801-B81C85ABA978">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-11 00:22:49 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<engineerTo>
+<item key="A147AA15-AC3C-732A-D927-C0350E01ECD2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_wisata" id="1FABE8BD-6654-5267-2AE6-1F250D9CBCB4">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-11 00:23:03 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<engineerTo>
+<item key="A147AA15-AC3C-732A-D927-C0350E01ECD2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lokasi" id="9253114C-0243-DB88-BEDC-39D540BC55D4">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-11 00:24:44 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<engineerTo>
+<item key="A147AA15-AC3C-732A-D927-C0350E01ECD2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga_tiket" id="77465DA6-4965-6AA4-8D77-5656E587B3C5">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-11 00:25:09 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<engineerTo>
+<item key="A147AA15-AC3C-732A-D927-C0350E01ECD2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jam_buka" id="AD708C43-8530-B001-03E7-CD653002CD11">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-11 00:25:41 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<engineerTo>
+<item key="A147AA15-AC3C-732A-D927-C0350E01ECD2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jam_tutup" id="86DB5E2B-5953-03FF-626A-F422B575AE5F">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-11 00:26:03 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<engineerTo>
+<item key="A147AA15-AC3C-732A-D927-C0350E01ECD2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17A28A29-BBF7-F9B6-FA24-553C661382A2" name="Wisata PK">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-11 00:23:00 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<engineerTo>
+<item key="A147AA15-AC3C-732A-D927-C0350E01ECD2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42D7B9E9-4138-71C7-F801-B81C85ABA978</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

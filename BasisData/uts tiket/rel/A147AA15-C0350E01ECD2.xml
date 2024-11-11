@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="A147AA15-AC3C-732A-D927-C0350E01ECD2" mainViewID="C3255A5E-027A-5C13-F312-FBF394ADF5AD">
+<createdBy>Kargo Technologies</createdBy>
+<createdTime>2024-11-10 23:20:28 UTC</createdTime>
+<ownerDesignName>uts tiket</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
